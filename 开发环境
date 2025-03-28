@@ -1,0 +1,13 @@
+技术栈：
+  前后端分离
+  后端：SpringBoot3 + Mybatis
+  前端：Vue3 + Element-Plus
+  数据库：Mysql
+
+开发环境：
+  IntelliJ IDEA 2023.3.8, jdk21, java17
+  apache-maven-3.9.9-bin
+  node.js: v20.15.1
+  springboot: v3.0.2
+  vue: v3.5.13
+  mysql-installer-community-5.7.39.0
