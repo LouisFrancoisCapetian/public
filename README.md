@@ -24,8 +24,7 @@
 com.example/
 ├── config/        # 配置类
 │   ├── SecurityConfig.java     # Spring Security配置
-│   ├── JwtConfig.java         # JWT配置
-│   └── RedisConfig.java       # Redis配置
+│   └── JwtConfig.java         # JWT配置
 │
 ├── controller/    # 控制器层，处理HTTP请求
 │   ├── AuthController.java    # 认证相关接口
@@ -59,11 +58,9 @@ com.example/
 │   └── GlobalExceptionHandler.java  # 全局异常处理
 │
 ├── utils/         # 工具类
-│   ├── JwtUtils.java         # JWT工具类
-│   └── RedisUtils.java       # Redis工具类
+│   └── JwtUtils.java         # JWT工具类
 │
 └── SpringbootApplication.java # 启动类
-
 ```
 
 ## 功能模块
@@ -106,8 +103,20 @@ com.example/
 - 系统配置
 
 ## 开发环境
-- JDK 21(IDEA使用java17)
+- JDK 21
 - Maven 3.9.9
 - Node.js v20.15.1
 - MySQL 5.7.39
 - IDEA 2023.3.8
+
+## 安装部署
+[待补充]
+
+## 开发进度
+- [x] 项目基础架构搭建
+- [x] 数据库设计
+- [ ] 用户认证模块
+- [ ] 影视资源模块
+- [ ] 社区互动模块
+- [ ] 个人中心模块
+- [ ] 管理后台模块 
