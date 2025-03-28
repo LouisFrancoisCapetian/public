@@ -6,6 +6,7 @@
 
 ### 后端
 - SpringBoot 3.0.2
+- vue 3.5.13
 - MyBatis
 - MySQL 5.7
 - JWT (认证)
@@ -14,6 +15,9 @@
 ### 前端
 - Vue 3.5.13
 - Element Plus
+- HTML
+- CSS
+- JavaScript
 - Axios
 - Vue Router
 - Pinia
@@ -23,34 +27,19 @@
 ```
 com.example/
 ├── config/        # 配置类
-│   ├── SecurityConfig.java     # Spring Security配置
-│   └── JwtConfig.java         # JWT配置
 │
 ├── controller/    # 控制器层，处理HTTP请求
-│   ├── AuthController.java    # 认证相关接口
-│   ├── UserController.java    # 用户相关接口
-│   └── PostController.java    # 帖子相关接口
 │
 ├── service/       # 服务层，业务逻辑
 │   ├── impl/     # 服务实现类
-│   ├── UserService.java       # 用户服务接口
-│   └── PostService.java       # 帖子服务接口
 │
 ├── mapper/        # MyBatis映射接口
-│   ├── UserMapper.java        # 用户数据访问
-│   └── PostMapper.java        # 帖子数据访问
 │
 ├── entity/        # 实体类，与数据库表对应
-│   ├── User.java             # 用户实体
-│   └── Post.java             # 帖子实体
 │
 ├── dto/           # 数据传输对象，接收前端请求参数
-│   ├── LoginDTO.java         # 登录参数
-│   └── RegisterDTO.java      # 注册参数
 │
 ├── vo/            # 视图对象，返回给前端的数据
-│   ├── UserVO.java           # 用户信息
-│   └── PostVO.java           # 帖子信息
 │
 ├── common/        # 公共组件
 │   ├── Result.java           # 统一响应格式
@@ -58,7 +47,6 @@ com.example/
 │   └── GlobalExceptionHandler.java  # 全局异常处理
 │
 ├── utils/         # 工具类
-│   └── JwtUtils.java         # JWT工具类
 │
 └── SpringbootApplication.java # 启动类
 ```
@@ -103,14 +91,12 @@ com.example/
 - 系统配置
 
 ## 开发环境
-- JDK 21
+- JDK 17
 - Maven 3.9.9
 - Node.js v20.15.1
+- npm 10.7.0
 - MySQL 5.7.39
 - IDEA 2023.3.8
-
-## 安装部署
-[待补充]
 
 ## 开发进度
 - [x] 项目基础架构搭建
