@@ -8,7 +8,6 @@
 - SpringBoot 3.0.2
 - MyBatis
 - MySQL 5.7
-- Redis (缓存)
 - JWT (认证)
 - Spring Security (权限)
 
